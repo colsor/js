@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // початок - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
+    let firstName = 'Maksym'
+    let middleName = 'colsor'
+    let lastName = 'Ruzhanskyi'
+    let myName = firstName + ' ' + middleName + ' ' + lastName
+    document.write(myName)
+
+    let a = 100
+    let b = '100'
+    let c = true
+    console.log(typeof a, b, c)
+
+    let user = {
+        name: 'Maksym',
+        lastNamee: 'Ruzhanskyi',
+        age: 24
+    }
+    prompt('name')
+    prompt('lastNamee')
+    prompt('age')
+    console.log(user);
+
+    let books = [
+        {
+            title: 'bookone',
+            pages: 100,
+            genre: 'fantasy',
+            authors: 'John'
+        },
+        {
+            title: 'booktwo',
+            pages: 200,
+            genre: 'fantasy',
+            authors: 'Elizabeth'
+        },
+        {
+            title: 'bookthree',
+            pages: 300,
+            genre: 'fantasy',
+            authors: 'Adam'
+        }
+    ];
+    console.log(books[0])
+    console.log(books[1])
+    console.log(books[2])
+</script>
+</body>
+</html>
